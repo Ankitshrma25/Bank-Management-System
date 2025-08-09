@@ -163,4 +163,4 @@ elif menu == "Delete Account":
     acc_no = st.text_input("Account Number")
     pin = st.text_input("PIN", type="password")
     if st.button("Delete"):
-        st.warning(bank.delete_account(acc_no, int(pin)))
+        st.warning(bank.delete_account(acc_no, int(pin)))  
